@@ -9,17 +9,16 @@ import Experiences from "./components/Experiences"
 function App() {
   return (
     <>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/projects" element={<ProjectPage />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter basename="/vite-deploy">
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<HomePage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/projects" element={<ProjectPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
-
   )
 }
 
