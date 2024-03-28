@@ -1,0 +1,33 @@
+{
+    "knowledge": [
+        {
+            "name": "C#"
+        },
+        {
+            "name": "HTML"
+        },
+        {
+            "name": "CSS"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+            "name": "SQL"
+        },
+        {
+            "name": "API"
+        }
+    ],
+    "tools": [
+        {
+            "tool": "Photoshop"
+        },
+        {
+            "tool": "VS Code"
+        },
+        {
+            "tool": "Visual Studio"
+        }
+    ]
+}
